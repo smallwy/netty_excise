@@ -21,7 +21,7 @@ public class EhoCliendHandler extends SimpleChannelInboundHandler<ByteBuf> {
      */
     @Override
     public  void channelActive(ChannelHandlerContext ctx){
-        ctx.writeAndFlush(Unpooled.copiedBuffer("send server msg",CharsetUtil.UTF_8));
+        ctx.writeAndFlush(Unpooled.copiedBuffer("send sssrver msg",CharsetUtil.UTF_8));
     }
 
     @Override
